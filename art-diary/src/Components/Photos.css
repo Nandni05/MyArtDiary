@@ -1,0 +1,38 @@
+.photos-wrapper {
+  transform: translateX(-100%);
+  transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  z-index: 10;
+  overflow: scroll;
+}
+
+
+
+.photos-wrapper.slide-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.container{
+  padding: 1rem;
+  column-count: 4;
+}
+
+
+img{
+  width: 100%;
+  margin-bottom: 0.5rem;    
+  transition: 0.5s background ease-in;
+}
+
+img:hover{
+  width: 110%;    
+  transition: 0.5s background ease-in;
+}
+
+

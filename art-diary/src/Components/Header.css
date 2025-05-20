@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    position: relative;
+    background-image: url('../assets/cover.png');
+    background-size: cover;
+    background-repeat: none;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.Heading{
+    display: flex;
+}
+
+.line{
+    width: 2px;
+    height: 100vh;
+    background-color: black;
+}
+.Heading h1{
+    margin: 0 auto;
+    align-items: flex-end;
+    font-family:  "Abril Fatface", serif;
+    font-weight: bold;
+    font-size: 10rem;
+    width: 50vw;
+    margin-top: 12%;
+    margin-left: -80%;
+}
+
+.Heading p{
+    width: 92vw;
+    text-align: right;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.photo{
+    background: black;
+    color: white;
+    height: 10vh;
+    width: 15vw;
+    border: none;
+    font-size: 2rem;
+    margin-top: 30%;
+    margin-right: 10%;
+}
+
+.photo:hover{
+    background: rgb(94, 94, 94);
+    color: white;
+    height: 10vh;
+    width: 15vw;
+    border: none;
+    font-size: 2rem;
+    margin-top: 30%;
+    margin-right: 10%;
+}
